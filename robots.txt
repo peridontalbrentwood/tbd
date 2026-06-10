@@ -1,0 +1,57 @@
+# robots.txt for thebrentwooddentist.com
+# Updated 2026-06-01
+
+User-agent: *
+Allow: /
+Disallow: /assets/uploads/
+Disallow: /admin/
+Disallow: /*.json$
+
+# Search & Answer Engine bots — all allowed
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+# Answer Engine Optimization — allow modern AI search bots
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: MistralAI-User
+Allow: /
+
+Sitemap: https://www.thebrentwooddentist.com/sitemap.xml
